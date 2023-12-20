@@ -1,0 +1,219 @@
+.custom-kumarkom-menu-container {
+    padding-top: 125px !important;
+}
+
+.header-font {
+    font-size: 14px !important;
+    margin-bottom: 0px !important;
+}
+
+
+/* Header Expend Container */
+
+div#example-collapse-text {
+    position: absolute;
+    width: 100%; 
+    left: 0;
+    right: 0;
+    margin-top: 75px;
+    border-bottom: 1px solid gray;
+    background: white;
+    padding-bottom: 50px;
+    transition: none;
+}
+
+ul.header-list {
+    list-style-type: none;
+}
+
+/* header li */
+.header-nav-menu.col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+::marker{
+    /* color: transparent !important; */
+}
+    
+li.nav-marker:after {
+    content: "\00b7";
+    color: #c06da2;
+    font-size: 100px;
+    position: absolute;
+    margin: -42px 0 0 -35px;
+    z-index: 998;
+}
+.nav-marker {
+cursor: pointer;
+}
+.nav-show {
+    margin-left: 240px;
+    cursor: pointer;
+}
+
+.dimond-shap-1 {
+    position: absolute;
+    background: #333;
+    width: 10px;
+    height: 10px;
+    margin-top: -22px;
+    left: 26.2%;
+    rotate: 45deg;
+}
+
+
+
+.header-nav-menu {
+    margin-top: 20px;
+}
+
+.hotel-hidden{
+    display: none;
+}
+
+.hotel-hidden:hover{
+    display: block !important;
+    width: 100%;
+}
+
+
+/* All Header Hover */
+
+.hotel-hidden, .events-hidden, .offers-hidden, .mayaspa-hidden {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 74%;
+    background: #333;
+    padding: 18px;
+}
+
+.hotel:hover .hotel-hidden , .events:hover .events-hidden , .offers:hover .offers-hidden, .mayaspa:hover .mayaspa-hidden  {
+    display: block;
+    z-index:999
+}
+
+/* events header */
+.events-hidden{
+    display: none;
+}
+
+.dimond-shap-2 {
+    position: absolute;
+    background: #333;
+    width: 10px;
+    height: 10px;
+    margin-top: -22px;
+    left: 32.6%;
+    rotate: 45deg;
+}
+
+
+/* Offers header */
+.dimond-shap-3 {
+    position: absolute;
+    background: #333;
+    width: 10px;
+    height: 10px;
+    margin-top: -22px;
+    left: 38.9%;
+    rotate: 45deg;
+}
+
+.offers-hidden {
+    display: none;
+}
+
+/* Maya Spa Header */
+.dimond-shap-4 {
+    position: absolute;
+    background: #333;
+    width: 10px;
+    height: 10px;
+    margin-top: -22px;
+    left: 45.4%;
+    rotate: 45deg;
+}
+
+.mayaspa-hidden {
+    display: none;
+}
+
+
+
+/* Search and filter Form */
+
+input#form1 {
+    margin-left: 14px;
+}
+
+.search-form-cd{
+    border: 1px solid purple;
+    border-radius: 50px;
+    border-right: 0;
+}
+
+.search-input-btn {
+    margin-right: 28px;
+}
+
+.search-custom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.search-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: -13px;
+    margin-left: 35px;
+}
+
+input#form1:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+}
+
+.make-reservation {
+    color: #fff!important;
+    background-color: purple;
+    border-radius: 50px;
+    margin-left: -33px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.make-reservation-font {
+    font-size: 12px;
+}
+.makereservation-dimond {
+    position: absolute;
+    background: purple;
+    width: 10px;
+    height: 10px;
+    margin-top: 32px;
+    left: 48%;
+    rotate: 45deg;
+}
+
+
+/* Footer */
+
+ul.footer-ul {
+    list-style-type: none;
+    padding-left: 0px;
+    color: black !important;
+}

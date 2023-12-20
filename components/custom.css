@@ -1,0 +1,296 @@
+@font-face {
+  font-family: ubuntu;
+  src: url('/font/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+body {
+  font-family: ubuntu;
+}
+
+
+.container {
+    max-width: 1170px !important;
+  }
+
+  @media(max-width:767px) {
+    .container {
+      width:100% !important;
+    }
+    .btn-circle {
+      width: 40px !important;
+      height: 40px !important;
+      padding-top: 4px !important;
+      border-radius: 30px;
+      color: #fff;
+      display: inherit;
+  }
+
+    }
+
+
+  /* .custom-kumarkom-menu-container {
+    margin-top: 125px;
+} */
+    p, li{
+      font-size: 14px !important;
+      color: #6d6e71 !important;
+      line-height: 1.6em;
+    }
+
+    * {
+      font-family: ubuntu;
+    }
+
+    .bg-purple{
+      background: purple;
+    }
+
+    .text-purple{
+      color: purple;
+    }
+
+    .underline-custom {
+        line-height: 17px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid silver;
+        width: 160px;
+        margin: 0 auto;
+        display: flex;
+        position: relative
+    }
+
+    .down-arrow-dimond {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      background: white;
+      left: 49%;
+      rotate: 45deg;
+      top: 25%;
+      border: 2px solid silver;
+      border-top: 0;
+      border-left: 0;
+  }
+
+.text-custom-grey {
+  color: #6D6E71;
+}
+
+.text-custom-megenta {
+  color: #a4508e !important;
+}
+
+.vobtn {
+  position: absolute;
+  left: 48%!important;
+    margin-top: 128px;
+    margin-left: 12px;
+}
+
+  .btn-circle {
+    width: 45px;
+    height: 45px;
+    padding: 12px 5px;
+    font-size: 11px !important;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+.vobtn-1 {
+  position: absolute;
+  right: 20%!important;
+    margin-top: 128px;
+    margin-left: 12px;
+}
+
+/* Zuri Kumarkom */
+/* Menu */
+
+
+
+.kumarkom-active-menu {
+  border-bottom: 3px solid #a4508e;
+  padding-bottom: 3px;
+  display: inline-block;
+}
+
+.kumarkom-image-overlay{
+  border-bottom: 6px solid #E2CDD4;
+}
+
+.kumarkom-image-overlay:hover {
+  opacity: 0.5;
+  transition: .5s ease;
+  background-color: rgba(255,255,255,.4);
+  border-radius: 50%;
+}
+
+
+/* Banner BreadCrumbs */
+
+.banner-breadcrumbs {
+  font-size: 12px;
+}
+
+/* Mobile css */
+
+.menu-font {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* tabs */
+.nav-tabs .nav-link.active {
+  color: #6d6e71 !important;
+}
+
+.nav-tabs .nav-link:hover{
+  color: #6d6e71 !important;
+}
+
+.nav-tabs .nav-link{
+  color: #000 !important;
+}
+
+ul.mb-3.nav.nav-tabs {
+  margin-left: 280px;
+  z-index: 1;
+    position: relative;
+}
+
+.tab-content {
+  margin-top: -50px;
+}
+
+
+/* ROOM SUITES */
+@media (min-width:768px) {
+.react-multi-carousel-track {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform,transition;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.react-multi-carousel-dot-list {
+  display: none !important;
+}
+}
+
+
+
+
+@media(max-width:767px) {
+  .btn-circle {
+    width: 55px;
+    height: 55px;
+    padding: 12px 12px;
+    font-size: 11px;
+    border-radius: 30px;
+    color: #fff;
+    display: inherit;
+}
+
+/* Room Suites Slider */
+
+.react-multi-carousel-dot-list {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+}
+
+
+/* UnOrderd List
+Complimentary Amenities*/
+
+.ca_ul {
+  padding-left : 1rem !important;
+  list-style-type: circle;
+}
+
+
+/* Kumarkom - Maya Spa - Ayurveda */
+
+.react-tabs__tab-list {
+  border-bottom: 0px solid #aaa !important;
+  margin: 0px 0 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.react-tabs__tab {
+  border: 0px solid transparent !important;
+}
+
+.react-tabs__tab--selected {
+  border-bottom: 3px solid #a4508e !important;
+}
+
+
+/* Events  Underline */
+
+.underline-2 {
+  line-height: 0px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid silver;
+  width: 140px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.underline {
+  line-height: 0px;
+    padding-bottom: 26px;
+    border-bottom: 2px solid silver;
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+}
+
+  .down-arrow {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    rotate: 45deg;
+    top: 51.4%;
+    border: 1px solid silver;
+    border-top: 0;
+    position: absolute;
+    border-left: 0;
+    left: 49%;
+}
+
+.square-box {
+    height: 350px;
+}
+
+@media(max-width:767px) {
+  .square-box {
+    height: auto;
+}
+
+}
+

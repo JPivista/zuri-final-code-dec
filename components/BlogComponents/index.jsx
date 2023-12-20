@@ -1,0 +1,16 @@
+import React from 'react'
+
+import Header from '../Shared/Header'
+import Footer from '../Shared/Footer'
+
+const index = () => {
+    return (
+        <>
+            <Header />
+            This is block
+            <Footer />
+        </>
+    )
+}
+
+export default index
