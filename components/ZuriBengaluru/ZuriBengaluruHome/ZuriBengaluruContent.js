@@ -200,7 +200,7 @@ const ZuriBengaluruContent = () => {
 
 
             {/* Tab Function */}
-            <Container className='p-0 py-5 d-md-flex flex-column d-none'>
+            {/* <Container className='p-0 py-5 d-md-flex flex-column d-none'>
 
                 <Col className='d-flex flex-column align-items-center' md={6}>
                     <Image src='/cl.png' alt='' fluid />
@@ -261,7 +261,7 @@ const ZuriBengaluruContent = () => {
                         </Row>
                     </Tab>
                 </Tabs>
-            </Container>
+            </Container> */}
 
             {/* Gallery Need to be update here */}
             <Container className='p-0 text-center'>
