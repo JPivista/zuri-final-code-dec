@@ -54,6 +54,25 @@ p {
     align-items: center;
 }
 
+
+@media(max-width:767px) {
+    .after-header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .after-header:after{
+        content: "\00b7";
+        color: #c06da2;
+        font-size: 100px;
+        position: absolute;
+        margin: -11px 0 0 -29px;
+        z-index: 0;
+    }
+}
+
 .dimond-shap-1 {
     position: absolute;
     background: #333;
@@ -254,4 +273,22 @@ input#checkIn, input#checkOut {
   
   .desktop-header-form.hidden {
     opacity: 0;
+  }
+
+  @media(max-width:767px) {
+    .cusrom-make-reservation-btn {
+        display: inline-block;
+        -webkit-transition: color .5s ease-in;
+        position: relative;
+        padding:5px 06px;
+        border-radius: 50px;
+        border: 1px solid purple;
+        margin-left: -15px;
+        z-index: 1;
+        color: #fff!important;
+        background-color: purple;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
   }

@@ -36,7 +36,7 @@ const SliderBanner = () => {
 
     return (
         <>
-            <Container fluid className='p-0 text-center position-relative'>
+            <Container fluid className='p-0 text-center z-0 position-relative'>
                 <Carousel>
                     <Carousel.Item className='bg-black ' style={BannerImg}>
                         <Carousel.Caption className='w-100 p-0'>

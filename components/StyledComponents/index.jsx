@@ -2,12 +2,14 @@ import Script from 'next/script'
 import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import 'react-multi-carousel/lib/styles.css';
 
 import "node_modules/video-react/dist/video-react.css"; // import css
 
 import 'react-tabs/style/react-tabs.css';
+
 
 const index = () => {
     return (
@@ -31,6 +33,7 @@ const index = () => {
                 crossorigin="anonymous"
             />
 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
         </>
     )
 }

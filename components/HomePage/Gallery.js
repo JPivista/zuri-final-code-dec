@@ -3,6 +3,8 @@ import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import './home-slider.css'
 import Link from 'next/link';
 
+import '../custom.css'
+
 
 const Gallery = () => {
 
@@ -107,8 +109,8 @@ const Gallery = () => {
     }
     return (
         <>
-            <Container className='p-0 py-5' style={{}}>
-
+            {/* Desktop View */}
+            <Container className='p-0 py-5 d-md-flex flex-column d-none' style={{}}>
                 <Col className='d-flex flex-column align-items-center'>
                     <Image src='/cl.png' alt='' fluid />
                     <h6 className='py-2'>GALLERY</h6>
@@ -138,7 +140,7 @@ const Gallery = () => {
                                 className='text-decoration-none rounded-circle flex-column justify-content-center'
                             >
                                 <h6
-                                    className='mb-0 lh-sm text-center text-black font11px'
+                                    className='mb-0 lh-sm text-center text-black font11px text-white'
                                 >
                                     VIEW <br />
                                     MORE
@@ -169,7 +171,7 @@ const Gallery = () => {
                                 className='text-decoration-none rounded-circle flex-column justify-content-center'
                             >
                                 <p
-                                    className='mb-0 lh-sm text-center text-black font11px'
+                                    className='mb-0 lh-sm text-center text-black font11px text-white'
                                 >
                                     VIEW <br />
                                     MORE
@@ -200,7 +202,108 @@ const Gallery = () => {
                                 className='text-decoration-none rounded-circle flex-column justify-content-center'
                             >
                                 <h6
-                                    className='mb-0 lh-sm text-center text-black font11px'
+                                    className='mb-0 lh-sm text-center text-black font11px text-white'
+                                >
+                                    VIEW <br />
+                                    MORE
+                                </h6>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </Container>
+
+
+
+            {/* Mobile View */}
+            <Container className='p-0 py-5 d-md-none flex-column d-flex' style={{}}>
+                <Col className='d-flex flex-column align-items-center'>
+                    <Image src='/cl.png' alt='' fluid />
+                    <h6 className='py-2'>GALLERY</h6>
+                </Col>
+
+                {/* Desktop view */}
+                <div className="d-flex flex-lg-row flex-column" >
+                    <div
+                        className='p-3 position-relative'
+                        style={{
+                            height: '200px',
+                            backgroundImage: `url('/home/gallery_section/hover_img_1.jpg')`,
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                        }}
+                    >
+                        <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span>
+                        <div className='h-100 position-relative d-flex flex-row justify-content-between align-items-end' style={{}}>
+                            <h6
+                                className='text-white'
+                            >
+                                THE ZURI KUMARAKOM, KERALA RESORT & SPA
+                            </h6>
+
+                            <Link href="/lake-resorts-in-kumarakom/gallery/"
+                                className='text-decoration-none flex-column justify-content-center'
+                            >
+                                <h6
+                                    className='mb-0 lh-sm text-center text-black font11px text-black btn-circle-mob-white'
+                                >
+                                    VIEW <br />
+                                    MORE
+                                </h6>
+                            </Link>
+                        </div>
+                    </div>
+                    <div
+                        className='p-3 '
+                        style={{
+                            height: '200px',
+                            backgroundImage: `url('/home/gallery_section/hover_img_2.jpg')`,
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                        }}
+                    >
+                        <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span>
+                        <div className='h-100 position-relative d-flex flex-row justify-content-between align-items-end' style={{}}>
+                            <h6
+                                style={{}}
+                                className='text-white'
+                            >
+                                THE ZURI WHITE SANDS, GOA RESORT & CASINO
+                            </h6>
+
+                            <Link href="/beach-resorts-in-goa/gallery/"
+                                className='text-decoration-none flex-column justify-content-center'
+                            >
+                                <p
+                                    className='mb-0 lh-sm text-center text-black font11px text-black btn-circle-mob-white'
+                                >
+                                    VIEW <br />
+                                    MORE
+                                </p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div
+                        style={{
+                            height: '200px',
+                            backgroundImage: `url('/home/gallery_section/hover_img_3.jpg')`,
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                        }}
+                        className='p-3 position-relative'
+                    >
+                        <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span>
+                        <div className='h-100 position-relative d-flex flex-row justify-content-between align-items-end' style={{}}>
+                            <h6
+                                className='custom-home-gallery text-white'
+                            >
+                                THE ZURI WHITEFIELD, BENGALURU
+                            </h6>
+                            <Link href=""
+                                className='text-decoration-none flex-column justify-content-center'
+                            >
+                                <h6
+                                    className='mb-0 lh-sm text-center text-black font11px text-black btn-circle-mob-white'
                                 >
                                     VIEW <br />
                                     MORE

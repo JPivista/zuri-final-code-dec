@@ -93,7 +93,7 @@ const EventsHeaderKumarkom = () => {
                         <Col xs={6}>
                             <Link href="/lake-resorts-in-kumarakom/restaurants"
                                 className='text-decoration-none text-black'>
-                                <h6 className='m-0 menu-font kumarkom-active-menu'>Dining</h6>
+                                <h6 className='m-0 menu-font'>Dining</h6>
                             </Link>
                         </Col>
 

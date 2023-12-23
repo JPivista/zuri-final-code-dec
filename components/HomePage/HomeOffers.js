@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
+
 import { Col, Container, Image, Row } from 'react-bootstrap'
+
 import Carousel from 'react-multi-carousel';
 
 import '../custom.css'
@@ -31,7 +33,11 @@ const HomeOffers = () => {
         <>
 
             {/* Mobile View */}
-            <Container className='p-0 d-md-none d-flex flex-column'>
+            <Container className='p-0 d-md-none d-flex flex-column mt-5'>
+                <Col className='d-flex flex-column align-items-center' >
+                    <Image src='/cl.png' alt='' fluid />
+                    <h6 className='py-2'>OFFERS</h6>
+                </Col >
                 <Carousel className=''
                     responsive={responsive}
                     removeArrowOnDeviceType={["tablet", "desktop"]}
@@ -41,7 +47,7 @@ const HomeOffers = () => {
                 // autoPlay={true}
                 >
                     <Col className='border border-1 shadow-sm p-0'>
-                        <Image src="/home/weekend_package.jpg" alt='' width="100%" />
+                        <Image src="/home/weekend_package.jpg" alt='' width="100%" height={340} />
                         <Col className='p-2 pb-0'>
                             <div className='arrow-up'></div>
                             <h6 className='text-black'>
@@ -51,21 +57,18 @@ const HomeOffers = () => {
                                 Spend a weekend nestled in the lap of luxury, at any of our luxury properties. Choose from the Summer Family Package, the Honeymoon Package in Goa, or the Honeymoon Package in Kumarakom.
                             </p>
                         </Col>
-                        <Col className='d-flex justify-md-content-center justify-content-end align-items-md-start p-0 pe-2 pb-2'>
+                        <Col className='d-flex justify-md-content-center justify-content-end align-items-md-start align-items-center p-0 pe-2 pb-2'>
                             <Link
                                 href="/offers/stay-offers/"
-                                className='bg-black p-2 text-center rounded-circle text-decoration-none'
+                                className='bg-black text-center text-decoration-none text-center btn-circle d-flex flex-column justify-content-center'
                             >
-                                <p className='p-2 m-0 lh-sm text-white btn-circle'>
-                                    VIEW<br />
-                                    OFFER
-                                </p>
+                                <p className=' mb-0 font11px lh-sm text-center text-white'>VIEW<br /> OFFER</p>
                             </Link>
                         </Col>
                     </Col>
 
                     <Col className='border border-1 shadow-sm p-0'>
-                        <Image src="/home/wellness_package.jpg" alt='' width="100%" />
+                        <Image src="/home/wellness_package.jpg" alt='' width="100%" height={340} />
                         <Col className='p-2 pb-0'>
                             <h6 className='text-black'>
                                 WELLNESS
@@ -79,17 +82,19 @@ const HomeOffers = () => {
                         <Col className='d-flex justify-md-content-center justify-content-end align-items-md-start p-0 pe-2 pb-2'>
                             <Link
                                 href="/offers/ayurveda-package/"
-                                className='bg-black p-2 text-center rounded-circle text-decoration-none'
+                                className='bg-black text-center text-decoration-none text-center btn-circle d-flex flex-column justify-content-center'
                             >
-                                <p className='p-2 m-0 lh-sm text-white btn-circle'>
-                                    VIEW<br /> OFFER
+                                <p className=' mb-0 font11px lh-sm text-center text-white'>
+                                    VIEW
+                                    <br />
+                                    OFFER
                                 </p>
                             </Link>
                         </Col>
                     </Col>
 
                     <Col className='border border-1 shadow-sm p-0'>
-                        <Image src="/home/dinning_offers.jpg" alt='' width="100%" />
+                        <Image src="/home/dinning_offers.jpg" alt='' width="100%" height={340} />
                         <Col className='p-2 pb-0'>
                             <h6 className='text-black'>DINING
                                 <br />
@@ -100,17 +105,19 @@ const HomeOffers = () => {
                         </Col>
                         <Col className='d-flex justify-md-content-center justify-content-end align-items-md-start p-0 pe-2 pb-2'>
                             <Link href="/offers/dining-offers/"
-                                className='bg-black p-2 text-center rounded-circle text-decoration-none'
+                                className='bg-black text-center text-decoration-none text-center btn-circle d-flex flex-column justify-content-center'
                             >
-                                <p className='p-2 m-0 lh-sm text-white btn-circle'>
-                                    VIEW<br /> OFFER
+                                <p className=' mb-0 font11px lh-sm text-center text-white'>
+                                    VIEW
+                                    <br />
+                                    OFFER
                                 </p>
                             </Link>
                         </Col>
                     </Col>
 
                     <Col className='border border-1 shadow-sm p-0'>
-                        <Image src="/home/stay_offers.jpg" alt='' width="100%" />
+                        <Image src="/home/stay_offers.jpg" alt='' width="100%" height={340} />
                         <Col className='p-2 pb-0'>
                             <h6 className='text-black'>STAY
                                 <br />
@@ -121,15 +128,19 @@ const HomeOffers = () => {
                         </Col>
                         <Col className='d-flex justify-md-content-center justify-content-end align-items-md-start p-0 pe-2 pb-2'>
                             <Link href="/offers/stay-offers/"
-                                className='bg-black p-2 text-center rounded-circle text-decoration-none'
+                                className='bg-black text-center text-decoration-none text-center btn-circle d-flex flex-column justify-content-center'
                             >
-                                <p className='p-2 m-0 lh-sm text-white btn-circle'>VIEW<br /> OFFER</p>
+                                <p className=' mb-0 font11px lh-sm text-center text-white'>
+                                    VIEW
+                                    <br />
+                                    OFFER
+                                </p>
                             </Link>
                         </Col>
                     </Col>
 
                     <Col className='border border-1 shadow-sm p-0'>
-                        <Image src="/home/honeymoon_package.jpg" alt='' width="100%" />
+                        <Image src="/home/honeymoon_package.jpg" alt='' width="100%" height={340} />
                         <Col className='p-2 pb-0'>
                             <h6 className='text-black'>HONEYMOON
                                 <br />
@@ -140,24 +151,28 @@ const HomeOffers = () => {
                             </p>
                         </Col>
                         <Col className='d-flex justify-md-content-center justify-content-end align-items-md-start p-0 pe-2 pb-2'>
-                            <Link href="/lake-resorts-in-kumarakom/offers/honeymoon-package/"
-                                className='bg-black p-2 text-center rounded-circle text-decoration-none'
+                            <Link
+                                href="/lake-resorts-in-kumarakom/offers/honeymoon-package/"
+                                className='bg-black text-center text-decoration-none text-center btn-circle d-flex flex-column justify-content-center align-items-center'
                             >
-                                <p className='p-2 m-0 lh-sm text-white btn-circle'>VIEW<br /> OFFER</p>
+                                <p className=' mb-0 font11px lh-sm text-center text-white'>
+                                    VIEW
+                                    <br />
+                                    OFFER</p>
                             </Link>
                         </Col>
                     </Col>
                 </Carousel>
-            </Container>
+            </Container >
 
 
 
             {/* Desktop View */}
             <Container className='p-0 d-md-flex d-none flex-column gap-2'>
-                <Col className='d-flex flex-column align-items-center'>
+                <Col className='d-flex flex-column align-items-center' >
                     <Image src='/cl.png' alt='' fluid />
                     <h6 className='py-2'>OFFERS</h6>
-                </Col>
+                </Col >
 
                 <Row className='p-0 gap-1'>
                     <Col md={4} className='border border-1 shadow-sm p-0'>
@@ -260,7 +275,6 @@ const HomeOffers = () => {
                                     </Col>
                                 </Col>
                             </Col>
-
                         </Col>
                     </Col>
                 </Row>

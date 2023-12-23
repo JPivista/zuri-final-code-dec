@@ -77,7 +77,7 @@ const ZuriGoaRoomSuitesHeader = () => {
                     <Row className='p-2s text-center d-flex flex-row'>
                         <Col xs={6}>
                             <Link href="/beach-resorts-in-goa"
-                                className='text-decoration-none text-black kumarkom-active-menu'>
+                                className='text-decoration-none text-black'>
                                 <h6 className='m-0 menu-font'>Zuri Kumarakom</h6>
                             </Link>
                         </Col>

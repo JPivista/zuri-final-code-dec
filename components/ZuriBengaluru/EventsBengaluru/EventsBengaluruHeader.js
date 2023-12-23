@@ -42,7 +42,7 @@ const EventsBengaluruHeader = () => {
                     &nbsp; / &nbsp;
 
                     <Link href="/hotels-in-bengaluru/events/"
-                        className='text-decoration-none text-black  kumarkom-active-menu'>
+                        className='text-decoration-none text-black kumarkom-active-menu'>
                         <h6 className='m-0'>Events</h6>
                     </Link>
                     &nbsp; / &nbsp;
@@ -92,7 +92,7 @@ const EventsBengaluruHeader = () => {
 
                         <Col xs={6}>
                             <Link href="/hotels-in-bengaluru/restaurants/"
-                                className='text-decoration-none text-blacks'>
+                                className='text-decoration-none text-black'>
                                 <h6 className='m-0 menu-font '>Dining</h6>
                             </Link>
                         </Col>

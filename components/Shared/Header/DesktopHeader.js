@@ -38,8 +38,9 @@ const DesktopHeader = () => {
 
     return (
         <>
-            <Container fluid className='position-fixed d-lg-flex flex-column d-none border-bottom bg-white z-3' >
 
+            {/* DESKTOP HEADER */}
+            <Container fluid className='position-fixed d-lg-flex flex-column d-none border-bottom bg-white z-3' >
                 <Container className='z-3 bg-white' style={{ zIndex: '100' }} >
                     <Row>
                         <Col md={2} >
@@ -316,6 +317,8 @@ const DesktopHeader = () => {
 
             </Container>
 
+
+            {/* MOBILE HEADER */}
 
 
         </>

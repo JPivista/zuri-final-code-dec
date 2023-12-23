@@ -48,7 +48,7 @@ const DesktopHeaderForm = ({ onClose }) => {
         };
 
         return (
-            <Container className={`pt-3 pb-5 ms-5 desktop-header-form ${isMakeReservation ? '' : 'hidden'} `}
+            <Container className={`pt-3 pb-5 ms-5 desktop-header-form ${isMakeReservation ? '' : 'hidden'} d-md-flex d-none`}
                 onClick={handleMakeReservation}
             >
 

@@ -112,7 +112,7 @@ const OffersGoaHeader = () => {
 
                         <Col xs={6}>
                             <Link href="/beach-resorts-in-goa/maya-spa/"
-                                className='text-decoration-none text-black kumarkom-active-menu'>
+                                className='text-decoration-none text-black'>
                                 <h6 className='m-0 menu-font'>Maya Spa</h6>
                             </Link>
                         </Col>
