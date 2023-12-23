@@ -67,7 +67,7 @@ const MobileHeader = () => {
 
         return (
             <>
-                <Container fluid className='d-flex flex-column bg-white sticky-top z-3 p-2 shadow-sm'>
+                <Container fluid className='d-flex d-md-none flex-column bg-white sticky-top z-3 p-2 shadow-sm'>
                     <Row className='d-flex flex-row justify-content-center align-items-center'>
                         <Col xs={1}>
                             <i
