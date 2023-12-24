@@ -17,11 +17,11 @@ body {
       width:100% !important;
     }
     .btn-circle {
-      width: 40px !important;
-      height: 40px !important;
-      padding-top: 4px !important;
+      width: 45px !important;
+      height: 45px !important;
+      padding: 5px !important;
       border-radius: 30px;
-      color: sblack;
+      color: black;
       display: inherit;
   }
   .btn-circle-mob-white {

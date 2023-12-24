@@ -136,9 +136,13 @@ const PropertiesSlider = () => {
                         <Col className='d-flex justify-md-content-center justify-content-end align-items-md-start align-items-center p-0 pe-2 pb-2'>
                             <Link
                                 href="/lake-resorts-in-kumarakom/"
-                                className='bg-black text-center text-decoration-none text-center btn-circle d-flex flex-column justify-content-center'
+                                className='bg-black text-decoration-none btn-circle'
                             >
-                                <p className=' mb-0 font11px lh-sm text-center text-white'>VIEW<br /> OFFER</p>
+                                <p className=' mb-0 font11px lh-sm text-center text-white'>
+                                    VIEW
+                                    <br />
+                                    OFFER
+                                </p>
                             </Link>
                         </Col>
                     </Col>

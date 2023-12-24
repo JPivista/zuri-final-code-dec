@@ -67,8 +67,8 @@ const MobileHeader = () => {
 
         return (
             <>
-                <Container fluid className='d-flex d-md-none flex-column bg-white sticky-top z-3 p-2 shadow-sm'>
-                    <Row className='d-flex flex-row justify-content-center align-items-center'>
+                <Container fluid className='d-flex d-md-none flex-column bg-white sticky-top z-3 shadow-sm p-0'>
+                    <Row className='d-flex flex-row flex-wrap justify-content-center align-items-center m-0'>
                         <Col xs={1}>
                             <i
                                 class="bi bi-list"
@@ -86,7 +86,7 @@ const MobileHeader = () => {
                             </Link>
                         </Col>
 
-                        <Col className='d-flex flex-column justify-content-end align-items-end'>
+                        <Col className='d-flex flex-column justify-content-end align-items-end' xs={6}>
                             <Col className='d-inline-block'>
                                 <p className='font11px mb-2'>
                                     <Image src='/header/phone_final.svg' alt='' />

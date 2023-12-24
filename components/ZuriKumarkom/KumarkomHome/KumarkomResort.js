@@ -152,8 +152,8 @@ const KumarkomResort = () => {
                     <h6 className='py-2'>OFFERS</h6>
                 </Col>
 
-
-                <Tabs
+                {/* Tab Function Removed */}
+                {/* <Tabs
                     defaultActiveKey="home"
                     transition={true}
                     id="noanim-tab-example"
@@ -225,7 +225,7 @@ const KumarkomResort = () => {
                             </Col>
                         </Row>
                     </Tab>
-                </Tabs>
+                </Tabs> */}
             </Container>
 
 

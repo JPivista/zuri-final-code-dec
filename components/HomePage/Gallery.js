@@ -140,7 +140,7 @@ const Gallery = () => {
                                 className='text-decoration-none rounded-circle flex-column justify-content-center'
                             >
                                 <h6
-                                    className='mb-0 lh-sm text-center text-black font11px text-white'
+                                    className='mb-0 lh-sm text-center text-black font11px text-black'
                                 >
                                     VIEW <br />
                                     MORE
@@ -171,7 +171,7 @@ const Gallery = () => {
                                 className='text-decoration-none rounded-circle flex-column justify-content-center'
                             >
                                 <p
-                                    className='mb-0 lh-sm text-center text-black font11px text-white'
+                                    className='mb-0 lh-sm text-center text-black font11px text-black'
                                 >
                                     VIEW <br />
                                     MORE
@@ -202,7 +202,7 @@ const Gallery = () => {
                                 className='text-decoration-none rounded-circle flex-column justify-content-center'
                             >
                                 <h6
-                                    className='mb-0 lh-sm text-center text-black font11px text-white'
+                                    className='mb-0 lh-sm text-center text-black font11px text-black'
                                 >
                                     VIEW <br />
                                     MORE
@@ -233,7 +233,7 @@ const Gallery = () => {
                             backgroundSize: 'cover',
                         }}
                     >
-                        <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span>
+                        {/* <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span> */}
                         <div className='h-100 position-relative d-flex flex-row justify-content-between align-items-end' style={{}}>
                             <h6
                                 className='text-white'
@@ -262,7 +262,7 @@ const Gallery = () => {
                             backgroundSize: 'cover',
                         }}
                     >
-                        <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span>
+                        {/* <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span> */}
                         <div className='h-100 position-relative d-flex flex-row justify-content-between align-items-end' style={{}}>
                             <h6
                                 style={{}}
@@ -292,7 +292,7 @@ const Gallery = () => {
                         }}
                         className='p-3 position-relative'
                     >
-                        <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span>
+                        {/* <span className='bg-opacity-25 bg-black position-absolute start-0 end-0 top-0 bottom-0'></span> */}
                         <div className='h-100 position-relative d-flex flex-row justify-content-between align-items-end' style={{}}>
                             <h6
                                 className='custom-home-gallery text-white'
